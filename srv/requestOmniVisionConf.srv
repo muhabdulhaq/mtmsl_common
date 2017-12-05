@@ -1,0 +1,10 @@
+#This service allows to request the current omnivision configuration of the robot.
+#This includes mirrorConfig.msg and visionHSVConfig.msg
+string request_node_name
+---
+mirrorConfig mirrorConf
+visionHSVConfig visionConf
+imageConfig imageConf
+worldConfig worldConfBall
+worldConfig worldConfObs
+worldConfig worldConfRLE
